@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(197, 237, 224);
+}   
+a{
+    /* color:blueviolet; */
+    text-decoration: none;
+    font-size:24px;
+    margin:0 10px;
+    /* cursor:crosshair; */
+    /* cursor:e-resize; */
+    /* cursor:wait; */
+    /* cursor:help; */
+    cursor:grab;
+    /* cursor:pointer; */
+    /* cursor:alias; */
+}
+header{
+    width:50%;
+    display:block;
+    margin:0 auto;
+
+}
+i{
+    margin-right:5px;
+}
+
+a:link, a:visited{
+    color:blueviolet;
+
+
+}
+ a:active,a:hover{
+    background-color:chartreuse;
+    padding:14px 25px;
+    text-align:center;
+ }
